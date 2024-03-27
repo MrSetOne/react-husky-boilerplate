@@ -8,17 +8,11 @@ function App() {
 
   const patata = 'patata'
 
-  if(patata === 'patata') {
+  if (patata === 'patata') {
     console.log(patata)
   }
 
-
-  const prueba = ['1', '2'
-
-
-
-
-]
+  const prueba = ['1', '2']
 
   console.log(prueba)
 

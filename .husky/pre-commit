@@ -1,8 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run lint
+echo -e "\n\nInicializando Husky...\n\n"
 
-echo "precommit hook done!"
+echo "[HUSKY] >> Running lint-staged"
+
+npx lint-staged
 
 # exit 1
