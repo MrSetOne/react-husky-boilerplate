@@ -9,12 +9,8 @@ function App() {
   const patata = 'patata'
 
   if (patata === 'patata') {
-    console.log(patata)
+    console.error('patata')
   }
-
-  const prueba = ['1', '2']
-
-  console.log(prueba)
 
   return (
     <>

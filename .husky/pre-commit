@@ -10,3 +10,14 @@ npx lint-staged
 echo "[HUSKY] >> Running tests"
 
 npm run test run
+
+echo -e "\n\n[HUSKY] >> Checking console.log()"
+
+node scripts/checkConsoleLogs.js
+
+echo -e "\n\n"
+
+echo -e "[HUSKY] >> ¡ALL OK!"
+echo -e "[HUSKY] >> THANKS FOR KEEPING THE CODE CLEAN! 🧹🧼🧽🚿🛁🚽🚰🚮🧻🧺🧴🧽🧼🧹"
+
+echo -e "\n\n"
