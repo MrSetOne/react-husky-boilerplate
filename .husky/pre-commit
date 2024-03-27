@@ -7,4 +7,6 @@ echo "[HUSKY] >> Running lint-staged"
 
 npx lint-staged
 
-# exit 1
+echo "[HUSKY] >> Running tests"
+
+npm run test run
