@@ -3,6 +3,12 @@
 
 echo -e "\n\nInicializando Husky...\n\n"
 
+echo -e "\n\n[HUSKY] >> Running Prettier..."
+
+prettier --check src/**/*.{ts,tsx,scss,css} --config ./.prettierrc
+
+echo -e "\n\n"
+
 echo "[HUSKY] >> Running lint-staged"
 
 npx lint-staged

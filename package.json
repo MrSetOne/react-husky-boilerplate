@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.72.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
@@ -38,12 +39,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vitest": "^1.4.0"
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    ".jsx": "eslint --cache --fix",
-    "*.tsx": "eslint --cache --fix",
-    "*.ts": "eslint --cache --fix",
-    "*.json": "prettier --write"
   }
 }
