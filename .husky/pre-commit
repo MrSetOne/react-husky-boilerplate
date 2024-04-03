@@ -19,5 +19,3 @@ echo -e "\n\n"
 
 echo -e "[HUSKY] >> ¡ALL OK!"
 echo -e "[HUSKY] >> THANKS FOR KEEPING THE CODE CLEAN! 🧹🧼🧽🚿🛁🚽🚰🚮🧻🧺🧴🧽🧼🧹"
-
-echo -e "\n\n"npx lint-staged
